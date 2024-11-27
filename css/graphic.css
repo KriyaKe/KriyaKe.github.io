@@ -1,0 +1,118 @@
+@import url(reset.css);
+
+.graphic_top{
+    background-image: url(../images/banners/banner_graphic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.graphic_banner{
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.graphic_title h1{
+    font-size: 150px;
+    color: white;
+    text-align: center;
+
+}
+
+.graphic_title .g1{
+
+}
+
+.graphic_title .g2{
+    margin-left: 300px;
+}
+
+.graphic_banner .icon{
+    display: flex;
+    width: 300px;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.graphic_banner .icon li{
+    flex-grow: 1;
+}
+
+.graphic_banner .icon i{
+    color: #855324;
+    font-size: 40px;
+    width: 30px
+}
+
+.graphic_banner .icon i:hover{
+    color: #AC822B;
+
+}
+
+
+/*     Main     */
+.graphic_main{
+    background-image: url(../images/bg_graphic.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.graphic_main h2{
+    text-align: center;
+    color: #855324;
+}
+
+.graphic_main span{
+    display: block;
+    width: 200px;
+    height: 5px;
+    background-color: #855324;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+
+.graphic_main ul{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid #e5e5e5;
+    align-content: space-between;
+
+}
+
+.graphic_main li{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: #fff;
+
+}
+
+
+
+.graphic_main a{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.graphic_main li img{
+    width: 100%;
+    display: block;
+    filter: grayscale(1);
+
+
+}
+
+.graphic_main a:hover img{
+    filter: grayscale(0);
+}
